@@ -1,0 +1,251 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto";
+  box-sizing: border-box;
+}
+.cabecera-superior {
+  background-color: #1cd1b0;
+  width: 100%;
+  padding-left: 15px;
+  margin: 0;
+  color: #000;
+  padding: 10px;
+}
+.encabezado-heroes {
+  background-color: #00669f;
+  width: 100%;
+  height: 101px;
+  color: #fff;
+  font-weight: 400;
+  padding-left: 28px;
+  padding-top: 28px;
+  padding-bottom: 28px;
+  display: flex;
+  justify-content: space-between;
+}
+/* header {
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+} */
+.contenedor-heroes {
+  padding: 150px 28px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.heroe {
+  width: 300px;
+}
+.imagen-principal {
+  background-image: url("../img/fondo-batman.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 300px;
+  height: 193px;
+  border-radius: 16px 16px 0px 0px;
+  position: relative;
+}
+.heart {
+  color: #cc2424;
+  font-size: 30px;
+  position: absolute;
+  top: 30px;
+  left: 20px;
+}
+.heroe-redondo {
+  position: absolute;
+  width: 120px;
+  height: 118px;
+  left: 90px;
+  bottom: -59px;
+  border-radius: 50%;
+}
+.descripcion {
+  text-align: center;
+  background-color: #f3f3f3;
+  padding-top: 59px;
+}
+.boton {
+  border: none;
+  background-color: #00669f;
+  color: white;
+  padding: 12px 28px;
+  margin: 16px;
+  text-decoration: none;
+}
+footer {
+  height: 50px;
+  background-color: #00669f;
+  color: #fff;
+  padding-top: 14px;
+  padding-left: 12px;
+  list-style: none;
+  text-decoration: none;
+}
+.contenedor-menu-navegacion {
+  background-color: #001d2d;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 40px;
+}
+.contenedor-menu-navegacion a {
+  color: #fff;
+  text-decoration: none;
+}
+.menu-navegacion {
+  display: flex;
+  padding-left: 24px;
+  padding: 8px;
+  list-style: none;
+}
+.menu-navegacion li {
+  padding: 8px;
+  margin: 8px;
+  text-decoration: none;
+  color: #fff;
+}
+.contenedor-registro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contenedor-formulario {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+}
+.formulario input {
+  width: 340px;
+  height: 30px;
+  padding: 0px 4px;
+  margin: 4px;
+}
+.formulario textarea {
+  width: 340px;
+  padding: 0px 4px;
+  margin: 4px;
+}
+.formulario input::placeholder {
+  color: #000;
+  text-indent: 10px;
+}
+select {
+  width: 340px;
+  height: 30px;
+  padding: 0px 4px;
+  margin: 4px;
+}
+.botones-registro {
+  display: flex;
+  padding: 12px 8px;
+}
+.contenedor-pais {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.boton1 {
+  background-color: #888888;
+  color: #fff;
+  padding: 8px 40px;
+  margin: 8px;
+  border-radius: 10px;
+  border: none;
+}
+.boton2 {
+  background-color: #1cd1b0;
+  color: #000;
+  padding: 8px 40px;
+  margin: 8px;
+  border-radius: 10px;
+  border: none;
+}
+.contenedor-pregunta {
+  display: flex;
+  padding-bottom: 26px;
+}
+.contenedor-pregunta a span {
+  margin-left: 4px;
+  margin-right: 4px ;
+}
+.contenedor-pregunta a {
+  text-decoration: none;
+}
+.titulo-formulario {
+  align-self: flex-start;
+  margin: 4px;
+}
+.texto-footer {
+  text-align: center;
+}
+input[type="submit"],
+input[type="reset"] {
+  cursor: pointer;
+}
+.contenedor-general {
+  min-height: calc(100vh - 50px);
+}
+.contenedor-formulario-heroes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #00669F;
+  width: 954px;
+  height: 632px;
+  padding-top: 40px; 
+}
+.contenedor-parte1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.contenedor-parte2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 20px;
+}
+.titulo-heroes {
+  display: flex;
+  flex-direction: column;
+align-items: center;
+}
+.contenedor-tarjetas {
+  display: flex;
+}
+.contenedor-seleccion-imagen {
+  display: flex;
+  
+}
+.descripcion-personaje {
+  margin: 8px 8px 0px;
+}
+.contenedor-poderes {
+  margin: 8px;
+  display: flex;
+  flex-direction: column;
+
+}.boton2:hover {
+  color: #fff;
+  background-color: #00669F;
+  font-weight: bold;
+}
+.heroe:nth-child(odd) {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #cc2424;
+}
+
+.titulo-formulario::before {
+  content: "Ingresa tus datos";
+  color: #cc2424;
+  font-family: Arial, Helvetica, sans-serif; 
+}
+
+::placeholder

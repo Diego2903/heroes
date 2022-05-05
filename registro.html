@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Regristro</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div class="contenedor-general">
+        <header>
+            <div>
+                <p class="cabecera-superior">Descuentos 20% en todos los productos de la tienda!</p>
+            </div>
+            <div class="encabezado-heroes">
+                <h1>Nombre Tienda</h1>
+            </div>
+        </header>
+        <form class="contenedor-formulario" action="#">
+            <div class="contenedor-registro">
+                <h1 class="titulo-formulario">Registro</h1>
+                <div class="formulario">
+                    <label for="Nombre"></label>
+                    <input type="text" name="Nombre" placeholder="Nombre Y Apellido">
+                </div>
+                <div class="formulario">
+                    <label for="email"></label>
+                    <input type="email" name="email" id="email" placeholder="correo electrónico">
+                </div>
+                <div class="formulario">
+                    <label for="password"></label>
+                    <input type="password" name="password" placeholder="Contraseña">
+                </div>
+                <div class="contenedor-pais">
+                    <select name="Pais">
+                        <option value="" disabled selected>País</option>
+                        <option value="Argetina">Argentina</option>
+                        <option value="Colombia">Colombia</option>
+                        <option value="Brasil">Brasil</option>
+                    </select>
+                </div>
+                <div class="botones-registro">
+                    <input class="boton1" type="reset" value="Resetear" name="Resetear" id="Reset">
+                    <input class="boton2" type="submit" value="Registrar" name="Registrar" id="Registrar">
+                </div>
+                <div class="contenedor-pregunta">
+                    <span>¿Ya tenés Cuenta?</span>
+                    <a href="#"><span> Ingresá</span></a>
+                </div>
+            </div>
+        </form>
+    </div>
+    <footer>
+    <p class="texto-footer">Todos los derechos reservados a Front End</p>
+    </footer>
+
+</html>
